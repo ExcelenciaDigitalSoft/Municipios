@@ -92,45 +92,45 @@ namespace Dominio.Entidades
         public string Jurisdiccion { get; set; } = string.Empty;
     }
 
-    public class Estado 
-    { 
-        public int Id { get; set; } 
-        [Required] public string Descripcion { get; set; } = string.Empty; 
+    public class Estado
+    {
+        public int Id { get; set; }
+        [Required] public string Descripcion { get; set; } = string.Empty;
     }
-    public class EstadoTributo 
+    public class EstadoTributo
     { public int Id { get; set; } [Required] public string Descripcion { get; set; } = string.Empty; }
-    public class Localidad 
+    public class Localidad
     { public int Id { get; set; } [Required] public string LocalidadNombre { get; set; } = string.Empty; }
-    public class TipoDocumento 
+    public class TipoDocumento
     { public int Id { get; set; } [Required] public string Descripcion { get; set; } = string.Empty; }
-    public class Periodicidad 
+    public class Periodicidad
     { public int Id { get; set; } [Required] public string Descripcion { get; set; } = string.Empty; }
-    public class TipoImpuesto 
+    public class TipoImpuesto
     { public int Id { get; set; } [Required] public string Descripcion { get; set; } = string.Empty; }
-    public class ValorTipoImpuesto 
+    public class ValorTipoImpuesto
     { public int Id { get; set; } [Required] public decimal Valor { get; set; } }
-    public class TipoInmueble 
+    public class TipoInmueble
     { public int Id { get; set; } [Required] public string Descripcion { get; set; } = string.Empty; }
-    public class TitularidadInmueble 
+    public class TitularidadInmueble
     { public int Id { get; set; } [Required] public int IdInmueble { get; set; } [Required] public int IdContribuyente { get; set; } }
-    public class ValuacionInmueble 
+    public class ValuacionInmueble
     { public int Id { get; set; } [Required] public int IdInmueble { get; set; } [Required] public decimal Evaluo { get; set; } }
-    public class ObraPublica 
+    public class ObraPublica
     { public int Id { get; set; } [Required] public string Descripcion { get; set; } = string.Empty; }
-    public class InmuebleObra 
+    public class InmuebleObra
     { public int InmuebleId { get; set; } public int ObraId { get; set; } public decimal PorcentajeParticipacion { get; set; } }
-    public class MedioPago 
+    public class MedioPago
     { public int Id { get; set; } [Required] public string Nombre { get; set; } = string.Empty; }
-    public class PlanPago 
+    public class PlanPago
     { public int Id { get; set; } [Required] public int IdContribuyente { get; set; } [Required] public string Descripcion { get; set; } = string.Empty; }
-    public class CuotaPlan 
+    public class CuotaPlan
     { public int Id { get; set; } [Required] public int IdPlan { get; set; } [Required] public decimal MontoCuota { get; set; } }
-    public class InteresMora 
+    public class InteresMora
     { public int Id { get; set; } [Required] public int IdTributo { get; set; } [Required] public decimal MontoInteres { get; set; } }
-    public class PlantillaNotificacion 
+    public class PlantillaNotificacion
     { public int Id { get; set; } [Required] public string Titulo { get; set; } = string.Empty; }
-    public class ColaNotificacion 
+    public class ColaNotificacion
     { public int Id { get; set; } [Required] public int IdContribuyente { get; set; } }
-    public class Auditoria 
+    public class Auditoria
     { public int Id { get; set; } [Required] public string TablaAfectada { get; set; } = string.Empty; }
 }

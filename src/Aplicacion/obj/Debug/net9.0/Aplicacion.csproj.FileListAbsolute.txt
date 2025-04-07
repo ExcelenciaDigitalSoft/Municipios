@@ -1,0 +1,6 @@
+/Users/Jorge/Documents/GitHub/Municipios/src/Aplicacion/obj/Debug/net9.0/Aplicacion.csproj.AssemblyReference.cache
+/Users/Jorge/Documents/GitHub/Municipios/src/Aplicacion/obj/Debug/net9.0/Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Jorge/Documents/GitHub/Municipios/src/Aplicacion/obj/Debug/net9.0/Aplicacion.AssemblyInfoInputs.cache
+/Users/Jorge/Documents/GitHub/Municipios/src/Aplicacion/obj/Debug/net9.0/Aplicacion.AssemblyInfo.cs
+/Users/Jorge/Documents/GitHub/Municipios/src/Aplicacion/obj/Debug/net9.0/Aplicacion.csproj.CoreCompileInputs.cache
+/Users/Jorge/Documents/GitHub/Municipios/src/Aplicacion/obj/Debug/net9.0/Aplicacion.sourcelink.json

@@ -1,0 +1,12 @@
+/Users/Jorge/Documents/GitHub/Municipios/src/Dominio/obj/Debug/net9.0/Dominio.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Jorge/Documents/GitHub/Municipios/src/Dominio/obj/Debug/net9.0/Dominio.AssemblyInfoInputs.cache
+/Users/Jorge/Documents/GitHub/Municipios/src/Dominio/obj/Debug/net9.0/Dominio.AssemblyInfo.cs
+/Users/Jorge/Documents/GitHub/Municipios/src/Dominio/obj/Debug/net9.0/Dominio.csproj.CoreCompileInputs.cache
+/Users/Jorge/Documents/GitHub/Municipios/src/Dominio/obj/Debug/net9.0/Dominio.sourcelink.json
+/Users/Jorge/Documents/GitHub/Municipios/src/Dominio/bin/Debug/net9.0/Dominio.deps.json
+/Users/Jorge/Documents/GitHub/Municipios/src/Dominio/bin/Debug/net9.0/Dominio.dll
+/Users/Jorge/Documents/GitHub/Municipios/src/Dominio/bin/Debug/net9.0/Dominio.pdb
+/Users/Jorge/Documents/GitHub/Municipios/src/Dominio/obj/Debug/net9.0/Dominio.dll
+/Users/Jorge/Documents/GitHub/Municipios/src/Dominio/obj/Debug/net9.0/refint/Dominio.dll
+/Users/Jorge/Documents/GitHub/Municipios/src/Dominio/obj/Debug/net9.0/Dominio.pdb
+/Users/Jorge/Documents/GitHub/Municipios/src/Dominio/obj/Debug/net9.0/ref/Dominio.dll
