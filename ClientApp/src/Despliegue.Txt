@@ -1,0 +1,53 @@
+Perfecto. Para desplegar tu aplicación Vue 3 construida con Vite, seguí estos pasos según el entorno de tu servidor:
+
+---
+
+### 🚀 **Despliegue en un Servidor Web (Nginx, Apache, etc.)**
+
+#### 1. **Construí la app**
+```bash
+npm run build
+```
+Esto genera la carpeta `/dist` con todo lo necesario para producción.
+
+#### 2. **Subí `/dist` al servidor**
+- Usá FTP, SSH (scp), o CI/CD para copiar la carpeta `dist` al directorio público del servidor (por ejemplo `/var/www/html`).
+
+#### 3. **Configurá Nginx (ejemplo)**
+```nginx
+server {
+  listen 80;
+  server_name rentasmunicipales.com.ar;
+
+  root /var/www/html;
+  index index.html;
+
+  location / {
+    try_files $uri $uri/ /index.html;
+  }
+
+  location ~* \\.(js|css|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot)$ {
+    expires 30d;
+    access_log off;
+  }
+}
+```
+
+#### 4. **Reiniciá Nginx**
+```bash
+sudo systemctl restart nginx
+```
+
+#### 5. **Verificá HTTPS**
+- Si usás HTTPS, agregá un certificado con Let’s Encrypt (`certbot`) o configurá SSL en tu hosting.
+
+---
+
+### 🧪 Verificación post-despliegue
+- ✅ Accedé a la URL y navegá por el sistema.
+- ✅ Verificá las llamadas al backend usando `fetch` o `axios` con `VITE_API_URL`.
+- ✅ Asegurate de que `index.html` responde en rutas internas (`/admin/contribuyentes`, etc.).
+
+---
+
+¿Tu servidor de producción es Nginx, Apache, IIS u otro? ¿Necesitás que prepare los archivos de configuración específicos para tu entorno?
